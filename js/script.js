@@ -3,6 +3,6 @@
  const lista = document.getElementById('lista');
  
  agregar.addEventListener('click', function() {
-   const elmentoNuevo = prompt('Elemento que quieres agregar a la lista: ');
+   const elmentoNuevo = prompt('Añadir a la lista de la compra: ');
    lista.innerHTML += '<li>' + elmentoNuevo + '</li>';  
  });
